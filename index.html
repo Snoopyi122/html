@@ -1,0 +1,293 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>美女简历</title>
+    <style>
+        .one{
+            width: 150px;
+            height: 200px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            padding: 100px 6%;
+            background: linear-gradient(to right top, #ff1493, #2980b9);
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .profile {
+            padding: 20px 30px;
+            height: 230px;
+            background: #FFFFFF;
+            text-align: center;
+            flex: 1 1 400px;
+            position: sticky;
+            top: 20px;
+            border-right: 2px solid #333333;
+        }
+
+        .profile h3 {
+            font-size: 20px;
+        }
+
+        .profile p {
+            color: #2980b9;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        .btn {
+            padding: 6px 20px;
+            border-radius: 5px;
+            background: #2980b9;
+            color: #FFFFFF;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #333333;
+        }
+
+        .information {
+            padding: 20px 30px;
+            flex: 1 1 1000px;
+            background: #FFFFFF; 
+        }
+
+        .title {
+            font-size: 25px;
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 17px;
+            line-height: 2;
+            padding-bottom: 10px;
+            color: #777777;
+        }
+
+        .about .box-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .about .box-container .box1 {
+            flex: 1 1 250px;
+        }
+
+        .about .box-container .box1 h3 {
+            font-size: 15px;
+            padding: 10px 0;
+            color: #333333;
+        }
+
+        .about .box-container .box1 h3 span {
+            color: #777777;
+        }
+
+        .services {
+            padding: 20px 0;
+        }
+        .box1:hover{
+            transform: scale(1.2,1.2);
+        }
+
+        .imgbox-container {
+            display: flex;
+        }
+
+        .imgbox-container .box1 {
+            flex: 1 1 17px;
+            text-align: center;
+            border-radius: 5px;
+            padding: 10px;
+            background: #eeeeee;
+            margin-right: 10px;
+        }
+
+        .imgbox-container .box1 img {
+            height: 350px;
+            margin-bottom: 10px;
+        }
+
+        .imgbox-container .box h3 {
+            font-size: 15px;
+            color: #777777;
+        }
+
+        
+        .progress h3 {
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            color: #333333;
+            font-size: 15px;
+        }
+
+        .progress h3 span {
+            color: #777777;
+        }
+
+        .bar {
+            overflow: hidden;
+            border-radius: 50px;
+            height: 10px;
+            background: #eeeeee;
+        }
+
+        .bar span {
+            background: #2980b9;
+            height: 100%;
+            display: block;
+            border-radius: 50px;
+        }
+
+        .first {
+            width: 95%;
+        }
+
+        .second {
+            width: 80%;
+        }
+
+        .third {
+            width: 65%;
+        }
+
+        .fourth {
+            width: 70%;
+        }
+
+        .fifth {
+            width: 90%;
+        }
+
+        .sixth {
+            width: 75%;
+        }
+
+
+        .contact .box-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .contact .box-container .box {
+            flex: 1 1 200px;
+            display: flex;
+        }
+
+        .contact .box-container .box i {
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            font-size: 15px;
+            border-radius: 50%;
+            background: #2980b9;
+            color: #FFFFFF;
+            text-align: center;
+            margin-top: 14px;
+        }
+
+        .contact .box-container .box h3 {
+            font-size: 17px;
+            color: #333333;
+            padding-bottom: 5px;
+        }
+
+        .contact .box-container .box p {
+            font-size: 14px;
+            color: #777777;
+            line-height: 2;
+        }
+
+        .info {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="profile">
+            <img class = "one" src="1.jpg" alt="">
+            <h3>陈星灼</h3>
+            <p>林工242</p>
+            <div class="buttons">
+                <a class="btn" href="8.png" target="_blank">下载简历</a>
+                <a class="btn" href="javascript:alert('发送成功');">发送约会邀请</a>
+            </div>
+        </div>
+
+        <div class="information">
+
+            <div class="about">
+                <h3 class="title">About Me</h3>
+                <p>我叫陈星灼，喵喵喵。</p>
+                <div class="box-container">
+                    <div class="box">
+                        <h3><span>年龄 : </span>未知</h3>
+                        <h3><span>地址 : </span>北京海淀</h3>
+                        <h3><span>电话 : </span>12345678910</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services">
+                <h3 class="title">我的照片</h3>
+                <div class="imgbox-container">
+                    <div class="box1">
+                        <img src="2.jpg" alt="">
+                        
+                    </div>
+                    <div class="box1">
+                        <img src="3.jpg" alt="">
+                        
+                    </div>
+                    <div class="box1">
+                        <img src="4.jpg" alt="">
+                        
+                    </div>
+                    <div class="box1">
+                        <img src="5.jpg" alt="">
+                        
+                    </div>
+                    <div class="box1">
+                        <img src="6.jpg" alt="">
+                        
+                    </div>
+                    <div class="box1">
+                        <img src="7.jpg" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contact">
+                <h3 class="title">Contact Info</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <i class="fas fa-map"></i>
+                        <div class="info">
+                            <h3>微信</h3>
+                            <p>DongFangBuBai0630</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
